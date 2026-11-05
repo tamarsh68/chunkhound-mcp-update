@@ -1447,7 +1447,7 @@ class MCPServerBase(ABC):
             types.Tool(
                 name=d["name"],
                 description=d["description"],
-                inputSchema=d["inputSchema"],
+                input_schema=d["inputSchema"],
             )
             for d in self._build_filtered_tool_dicts()
         ]
